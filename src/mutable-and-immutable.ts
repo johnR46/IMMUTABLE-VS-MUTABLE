@@ -1,15 +1,8 @@
-let food = {
-  apple: 'fruit',
-  banana: 'fruit',
-  tomato: 'vegetable'
-};
+let tomatoes = 3;
 
-const { tomato, ...rest } = food;
+let apple = tomatoes;
 
-const updateFood = {
-  tomato: 'fruit',
-  ...rest
-};
+tomatoes++;
 
-console.log(food);
-console.log(updateFood);
+console.log(apple);
+console.log(tomatoes);
